@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+/* header styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgb(17, 17, 31);
+    color: #fff;
+}
+
+nav h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    color:rgb(150, 85, 5) ;
+}
+
+nav i{
+  font-size: 18px;
+  color: rgb(150, 85, 5);
+}
+
+.navigate{
+    display: flex;
+    gap: 25px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+a:hover{
+    color: rgb(150, 85, 5);
+}
+
+nav .active{
+    color: rgb(150, 85, 5);
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
+}
