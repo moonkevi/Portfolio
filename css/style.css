@@ -22,7 +22,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 40px;
     background: rgb(17, 17, 31);
     color: #fff;
     margin-bottom: 10px;
@@ -73,7 +73,6 @@ nav .active{
     align-items: center;
     max-width: 900px;
     margin: auto;
-    border: 2px solid saddlebrown;
     margin-top: 120px;
 }
 .main-cont{
@@ -113,14 +112,14 @@ nav .active{
 
 .btn2{
       padding: 10px ;
-    color:rgb(28, 28, 69);
+    color:rgb(150, 85, 5);
     background: #fff;
     border: 1px solid rgb(28, 28, 69);
     text-transform: capitalize;
    width: 100px; 
    border-radius: 18px;
    margin-top: 5px;
-   /* color: red; */
+   font-family: 300;
 }
 
 .buttons{
@@ -129,3 +128,152 @@ nav .active{
     gap: 1.2rem;
    
 }
+
+/* footer */
+
+footer{
+    background:rgb(17, 17, 31) ;
+    color: rgb(150, 85, 5);
+    font-size: 16px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
+
+/* resume styling */
+
+.resume{
+    
+    max-width: 650px;
+    margin: 0 auto;
+    background: #eef0f3;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+}
+
+.resume-header{
+   
+    background: rgb(17, 17, 31);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.resume-header h1{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.resume-header p{
+    text-transform: capitalize;
+}
+
+.resume-header img{
+    width: 120px;
+    height: 120px;
+}
+
+.resume-body{
+    display: flex;
+    gap: 40px;
+    padding: 15px 15px 80px 15px;
+}
+
+/* aside , left side */
+/*aside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+aside h2{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: rgb(36, 36, 74);
+    background: rgb(105, 105, 176);
+    box-shadow: 5px 8px 15px #000;
+}
+
+.contact-list li{
+    margin-bottom: 5px;
+}
+
+.contact-list .icon{
+    font-size: 14px;
+    background: rgb(36, 36, 74);
+    color: #fff;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.contact-list .tell{
+    font-size: 14px;
+}
+
+.contact-list a{
+    font-size: 14px;
+    color: rgb(36, 36, 74);
+}
+
+.timeline{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-left: 3px solid rgb(36, 36, 74);
+    padding-left: 5px;
+    text-transform: capitalize;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+/* right side */
+
+/* .main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main h2{
+    font-size: 18px;
+    font-weight: 300px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #000;
+    padding-bottom: 2px;
+}
+
+.main h3{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.job{
+    margin-bottom: 20px;
+}
+
+.job .date{
+        color: rgb(180, 179, 179);
+        font-size: 14px;
+}
+
+.job li{
+    list-style: square;
+    padding-top: 5px;
+}
+
