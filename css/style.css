@@ -198,11 +198,12 @@ aside{
 
 aside h2{
     font-size: 16px;
+    padding-left: 10px;
     text-transform: capitalize;
     margin-bottom: 10px;
-    color: rgb(36, 36, 74);
+    color:#fff;
     background: rgb(105, 105, 176);
-    box-shadow: 5px 8px 15px #000;
+    /* box-shadow: 5px 8px 8px #000; */
 }
 
 .contact-list li{
@@ -222,7 +223,7 @@ aside h2{
 }
 
 .contact-list a{
-    font-size: 14px;
+    font-size: 13px;
     color: rgb(36, 36, 74);
 }
 
@@ -277,3 +278,65 @@ aside h2{
     padding-top: 5px;
 }
 
+/* contact form */
+
+main{
+  width: 100%;
+  max-width: 640px;
+  padding: 2.5rem;
+  margin: 20px auto;
+  background: #e9eef5;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2)
+}
+
+main h1{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #3d4e6b;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 2.5rem; 
+
+}
+
+ .form-group input,
+.form-group textarea {
+  width: 100%;
+  /* padding: 1rem 0 0.4rem; */
+  border: none;
+  border-bottom: 1px solid #8f98a8;
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: #2b2f3d;
+  outline: none;
+  resize: none;
+  grid-column: 1; 
+} 
+
+button[type="submit"]{
+    width: 300px;
+
+    padding: 15px;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: rgb(17, 17, 31);
+    align-items: center;
+}
+
+.full{
+    grid-column: 1 / -1; 
+}
+
+label{
+    text-transform: capitalize;
+}
