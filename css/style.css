@@ -188,8 +188,8 @@ footer{
     padding: 15px 15px 80px 15px;
 }
 
-/* aside , left side */
-/*aside{
+/*aside , left side */
+aside{
     display: flex;
     flex-direction: column;
     gap: 20px;
