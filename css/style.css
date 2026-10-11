@@ -305,7 +305,7 @@ form{
 
 }
 
- .form-group input,
+  .form-group input,
 .form-group textarea {
   width: 100%;
   /* padding: 1rem 0 0.4rem; */
@@ -317,7 +317,7 @@ form{
   color: #2b2f3d;
   outline: none;
   resize: none;
-  grid-column: 1; 
+  grid-column: 1;  
 } 
 
 button[type="submit"]{
