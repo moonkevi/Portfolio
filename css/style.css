@@ -471,7 +471,7 @@ label{
     } 
 
     /* hero: image on top, text below, centered */
-    /* main{
+    main{
         padding: 1.5rem;
     }
     .container{
@@ -497,10 +497,10 @@ label{
     .buttons{
         flex-wrap: wrap;
         justify-content: center;
-    } */
+    } 
 
     /* resume */
-    /* .resume{
+     .resume{
         margin: 0 15px;
     }
     .resume-header{
@@ -515,10 +515,10 @@ label{
     .resume-body{
         flex-direction: column;
         padding-bottom: 40px;
-    } */
+    } 
 
     /* contact form: single column */
-    /* form{
+    form{
         grid-template-columns: 1fr;
     }
     .full{
@@ -526,24 +526,26 @@ label{
     }
     button[type="submit"]{
         width: 100%;
-    } */
+    } 
 
     /* footer */
-    /* footer{
+    footer{
         flex-direction: column;
         align-items: center;
         text-align: center;
         gap: 12px;
     }
-} */
+} 
 
 /* ---------- Small phones ---------- */
-/* @media (max-width: 480px){
+@media (max-width: 480px){
     nav h1{ font-size: 1.4rem; }
+    .last{padding:2rem 0.5rem ;}
     .main-cont h1{ font-size: 1.7rem; }
     .main-cont h3{ font-size: 13px; }
+
     .btn{ padding: 14px 30px; }
     .section-title{ font-size: 1.6rem; }
     .projects{ padding: 2rem 1rem; }
-} */
+} 
 
